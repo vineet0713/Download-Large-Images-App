@@ -27,6 +27,9 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="29" id="ZJg-Vk-AhC"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Son-qK-cB4"/>
+                                </connections>
                             </slider>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="mU0-9n-uea">
                                 <rect key="frame" x="16" y="608" width="343" height="39"/>
@@ -34,14 +37,23 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucw-f4-vS3">
                                         <rect key="frame" x="0.0" y="0.0" width="34" height="39"/>
                                         <state key="normal" title="Sync"/>
+                                        <connections>
+                                            <action selector="sync:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L5r-MR-KJG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kug-zM-7un">
                                         <rect key="frame" x="70" y="0.0" width="42" height="39"/>
                                         <state key="normal" title="Async"/>
+                                        <connections>
+                                            <action selector="async:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uMj-tH-9Yi"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0TR-oZ-w4W">
                                         <rect key="frame" x="148" y="0.0" width="195" height="39"/>
                                         <state key="normal" title="Async + Completion Closure"/>
+                                        <connections>
+                                            <action selector="asyncWithCompletionClosure:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fg2-OH-LO0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -62,6 +74,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="largeImage" destination="9hd-WR-kxS" id="Y1u-3D-iW9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
