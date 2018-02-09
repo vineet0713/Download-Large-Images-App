@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65EEDFD2202D2930004216EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEDFD1202D2930004216EC /* AppDelegate.swift */; };
+		65EEDFD4202D2930004216EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEDFD3202D2930004216EC /* ViewController.swift */; };
+		65EEDFD7202D2930004216EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EEDFD5202D2930004216EC /* Main.storyboard */; };
+		65EEDFD9202D2930004216EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EEDFD8202D2930004216EC /* Assets.xcassets */; };
+		65EEDFDC202D2930004216EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EEDFDA202D2930004216EC /* LaunchScreen.storyboard */; };
+		65EEDFE7202D2930004216EC /* Download_Large_ImagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEDFE6202D2930004216EC /* Download_Large_ImagesTests.swift */; };
+		65EEDFF2202D2930004216EC /* Download_Large_ImagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EEDFF1202D2930004216EC /* Download_Large_ImagesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65EEDFE3202D2930004216EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65EEDFC6202D2930004216EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EEDFCD202D2930004216EC;
+			remoteInfo = "Download Large Images";
+		};
+		65EEDFEE202D2930004216EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65EEDFC6202D2930004216EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EEDFCD202D2930004216EC;
+			remoteInfo = "Download Large Images";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65EEDFCE202D2930004216EC /* Download Large Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Download Large Images.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EEDFD1202D2930004216EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65EEDFD3202D2930004216EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65EEDFD6202D2930004216EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65EEDFD8202D2930004216EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65EEDFDB202D2930004216EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65EEDFDD202D2930004216EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EEDFE2202D2930004216EC /* Download Large ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Download Large ImagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EEDFE6202D2930004216EC /* Download_Large_ImagesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_Large_ImagesTests.swift; sourceTree = "<group>"; };
+		65EEDFE8202D2930004216EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65EEDFED202D2930004216EC /* Download Large ImagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Download Large ImagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EEDFF1202D2930004216EC /* Download_Large_ImagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download_Large_ImagesUITests.swift; sourceTree = "<group>"; };
+		65EEDFF3202D2930004216EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65EEDFCB202D2930004216EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFDF202D2930004216EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFEA202D2930004216EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65EEDFC5202D2930004216EC = {
+			isa = PBXGroup;
+			children = (
+				65EEDFD0202D2930004216EC /* Download Large Images */,
+				65EEDFE5202D2930004216EC /* Download Large ImagesTests */,
+				65EEDFF0202D2930004216EC /* Download Large ImagesUITests */,
+				65EEDFCF202D2930004216EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65EEDFCF202D2930004216EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65EEDFCE202D2930004216EC /* Download Large Images.app */,
+				65EEDFE2202D2930004216EC /* Download Large ImagesTests.xctest */,
+				65EEDFED202D2930004216EC /* Download Large ImagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65EEDFD0202D2930004216EC /* Download Large Images */ = {
+			isa = PBXGroup;
+			children = (
+				65EEDFD1202D2930004216EC /* AppDelegate.swift */,
+				65EEDFD3202D2930004216EC /* ViewController.swift */,
+				65EEDFD5202D2930004216EC /* Main.storyboard */,
+				65EEDFD8202D2930004216EC /* Assets.xcassets */,
+				65EEDFDA202D2930004216EC /* LaunchScreen.storyboard */,
+				65EEDFDD202D2930004216EC /* Info.plist */,
+			);
+			path = "Download Large Images";
+			sourceTree = "<group>";
+		};
+		65EEDFE5202D2930004216EC /* Download Large ImagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				65EEDFE6202D2930004216EC /* Download_Large_ImagesTests.swift */,
+				65EEDFE8202D2930004216EC /* Info.plist */,
+			);
+			path = "Download Large ImagesTests";
+			sourceTree = "<group>";
+		};
+		65EEDFF0202D2930004216EC /* Download Large ImagesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65EEDFF1202D2930004216EC /* Download_Large_ImagesUITests.swift */,
+				65EEDFF3202D2930004216EC /* Info.plist */,
+			);
+			path = "Download Large ImagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EEDFCD202D2930004216EC /* Download Large Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EEDFF6202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large Images" */;
+			buildPhases = (
+				65EEDFCA202D2930004216EC /* Sources */,
+				65EEDFCB202D2930004216EC /* Frameworks */,
+				65EEDFCC202D2930004216EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Download Large Images";
+			productName = "Download Large Images";
+			productReference = 65EEDFCE202D2930004216EC /* Download Large Images.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65EEDFE1202D2930004216EC /* Download Large ImagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EEDFF9202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large ImagesTests" */;
+			buildPhases = (
+				65EEDFDE202D2930004216EC /* Sources */,
+				65EEDFDF202D2930004216EC /* Frameworks */,
+				65EEDFE0202D2930004216EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EEDFE4202D2930004216EC /* PBXTargetDependency */,
+			);
+			name = "Download Large ImagesTests";
+			productName = "Download Large ImagesTests";
+			productReference = 65EEDFE2202D2930004216EC /* Download Large ImagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65EEDFEC202D2930004216EC /* Download Large ImagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EEDFFC202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large ImagesUITests" */;
+			buildPhases = (
+				65EEDFE9202D2930004216EC /* Sources */,
+				65EEDFEA202D2930004216EC /* Frameworks */,
+				65EEDFEB202D2930004216EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EEDFEF202D2930004216EC /* PBXTargetDependency */,
+			);
+			name = "Download Large ImagesUITests";
+			productName = "Download Large ImagesUITests";
+			productReference = 65EEDFED202D2930004216EC /* Download Large ImagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65EEDFC6202D2930004216EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vineet Joshi";
+				TargetAttributes = {
+					65EEDFCD202D2930004216EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					65EEDFE1202D2930004216EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65EEDFCD202D2930004216EC;
+					};
+					65EEDFEC202D2930004216EC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 65EEDFCD202D2930004216EC;
+					};
+				};
+			};
+			buildConfigurationList = 65EEDFC9202D2930004216EC /* Build configuration list for PBXProject "Download Large Images" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65EEDFC5202D2930004216EC;
+			productRefGroup = 65EEDFCF202D2930004216EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65EEDFCD202D2930004216EC /* Download Large Images */,
+				65EEDFE1202D2930004216EC /* Download Large ImagesTests */,
+				65EEDFEC202D2930004216EC /* Download Large ImagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65EEDFCC202D2930004216EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EEDFDC202D2930004216EC /* LaunchScreen.storyboard in Resources */,
+				65EEDFD9202D2930004216EC /* Assets.xcassets in Resources */,
+				65EEDFD7202D2930004216EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFE0202D2930004216EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFEB202D2930004216EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65EEDFCA202D2930004216EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EEDFD4202D2930004216EC /* ViewController.swift in Sources */,
+				65EEDFD2202D2930004216EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFDE202D2930004216EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EEDFE7202D2930004216EC /* Download_Large_ImagesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EEDFE9202D2930004216EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EEDFF2202D2930004216EC /* Download_Large_ImagesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65EEDFE4202D2930004216EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65EEDFCD202D2930004216EC /* Download Large Images */;
+			targetProxy = 65EEDFE3202D2930004216EC /* PBXContainerItemProxy */;
+		};
+		65EEDFEF202D2930004216EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65EEDFCD202D2930004216EC /* Download Large Images */;
+			targetProxy = 65EEDFEE202D2930004216EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65EEDFD5202D2930004216EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EEDFD6202D2930004216EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65EEDFDA202D2930004216EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EEDFDB202D2930004216EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65EEDFF4202D2930004216EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65EEDFF5202D2930004216EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65EEDFF7202D2930004216EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65EEDFF8202D2930004216EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large Images/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-Images";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65EEDFFA202D2930004216EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Download Large Images.app/Download Large Images";
+			};
+			name = Debug;
+		};
+		65EEDFFB202D2930004216EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large ImagesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-ImagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Download Large Images.app/Download Large Images";
+			};
+			name = Release;
+		};
+		65EEDFFD202D2930004216EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Download Large Images";
+			};
+			name = Debug;
+		};
+		65EEDFFE202D2930004216EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9R438Z887;
+				INFOPLIST_FILE = "Download Large ImagesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet0713.Download-Large-ImagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Download Large Images";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65EEDFC9202D2930004216EC /* Build configuration list for PBXProject "Download Large Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EEDFF4202D2930004216EC /* Debug */,
+				65EEDFF5202D2930004216EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EEDFF6202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EEDFF7202D2930004216EC /* Debug */,
+				65EEDFF8202D2930004216EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EEDFF9202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large ImagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EEDFFA202D2930004216EC /* Debug */,
+				65EEDFFB202D2930004216EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EEDFFC202D2930004216EC /* Build configuration list for PBXNativeTarget "Download Large ImagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EEDFFD202D2930004216EC /* Debug */,
+				65EEDFFE202D2930004216EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65EEDFC6202D2930004216EC /* Project object */;
+}
